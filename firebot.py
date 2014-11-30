@@ -28,7 +28,7 @@ class Fire_bot(JabberBot):
     def file(self, mess, args):
         """Displays contents of a file"""
         return subprocess.check_output(['cat', '/home/1337/cute-cat.txt']).strip()
-        return 60 * args
+        
 
 username = 'bot@192.168.1.2'
 password = 'bot'
