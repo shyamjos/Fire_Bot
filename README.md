@@ -9,7 +9,7 @@ Features
 
 * Whois (domain or ip) : whois lookup
 
-* Wiki (keyword)       : diaplays summary of a wikipedia article 
+* Wiki (keyword)       : displays summary of a wikipedia article 
 
 * youtube (link)       : Generates download link for youtube video 
 
