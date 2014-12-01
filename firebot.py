@@ -25,12 +25,12 @@ class Fire_bot(JabberBot):
         return wikipedia.summary(args, sentences=2)
         
     @botcmd
-    def cat(self, mess, args):
+    def file(self, mess, args):
         """Displays contents of a file"""
         return subprocess.check_output(['cat', args]).strip()
         
 
-username = 'bot@192.168.1.2'
-password = 'bot'
+username = 'user@192.168.1.2'
+password = 'pass'
 fire_bot = Fire_bot(username, password)
 fire_bot.serve_forever()
