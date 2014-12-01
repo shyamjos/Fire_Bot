@@ -25,9 +25,9 @@ class Fire_bot(JabberBot):
         return wikipedia.summary(args, sentences=2)
         
     @botcmd
-    def file(self, mess, args):
+    def cat(self, mess, args):
         """Displays contents of a file"""
-        return subprocess.check_output(['cat', '/home/1337/cute-cat.txt']).strip()
+        return subprocess.check_output(['cat', args]).strip()
         
 
 username = 'bot@192.168.1.2'
