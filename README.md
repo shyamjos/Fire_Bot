@@ -31,11 +31,16 @@ Screenshots
 Install any missing dependencies
 --------------------------------
 sudo apt-get install python-jabberbot
+
 sudo apt-get install whois
+
 sudo apt-get install youtube-dl 
+
 sudo apt-get install python-pip
+
 sudo pip install wikipedia
 
 Running the script
 ------------------
+python firebot.py
 
